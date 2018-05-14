@@ -1,0 +1,26 @@
+{
+    "name": "pengo/module-requireinvoicemx",
+    "description": "Module for adding 'RFC' and 'Raz\u00f3n social' fields in billing address as well as a 'Require billing' field",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "mariohdpz@gmail.com",
+            "name": "Mario Hern\u00e1ndez"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pengo\\RequireInvoiceMx\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

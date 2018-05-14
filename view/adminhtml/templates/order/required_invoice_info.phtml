@@ -1,0 +1,7 @@
+<?php
+// @codingStandardsIgnoreFile
+/** @var \Pengo\RequireInvoiceMx\Block\Adminhtml\RequireInvoiceInfo $block */
+?>
+<br>
+<strong><?= __('Required Invoice :') ?> </strong>
+<?= $block->escapeHtml($block->getRequiredInvoice() ? __('Yes') : __('No') ) ?><br />
